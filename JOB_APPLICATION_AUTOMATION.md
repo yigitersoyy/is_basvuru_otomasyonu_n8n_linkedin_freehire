@@ -1,5 +1,7 @@
 # A free, local-first job application workflow with n8n, LinkedIn, and FreeHire.me
 
+This guide walks through a manually supervised first run. The full design covers CV upload, job-specific PDF generation, screening answers, approved submission workers, and a tracking website. [Three-level system architecture](ARCHITECTURE.md)
+
 Build this as a personal application desk. You save a vacancy once. n8n checks for duplicates, compares the requirements with your experience, and prepares a packet you can review. You submit through the employer’s chosen channel. The tracker records the result and tells you when a follow-up is due.
 
 The baseline runs on an existing computer with **self-hosted n8n Community Edition, PostgreSQL, and a local Ollama model**. It requires no n8n Cloud subscription, paid model API, LinkedIn developer account, or public server. Hardware, electricity, and internet access still have a cost. A hosted model is an optional choice for individual drafts.
